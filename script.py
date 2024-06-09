@@ -5,7 +5,7 @@ from decimal import Decimal
 # Sostituisci con le tue credenziali effettive
 client = MongoClient("mongodb://root:password@localhost:27017/")
 db = client["real-estate"]  # Sostituisci con il nome del tuo database
-collection = db["comuni"]  # Sostituisci con il nome della tua collezione
+collection = db["comuni2"]  # Sostituisci con il nome della tua collezione
 
 def convert_decimal_to_float(obj):
     """
